@@ -11,7 +11,7 @@ def index():
 @app.route('/generate_numbers', methods=['POST'])
 def generate_numbers():
     # 45 이하의 숫자 행운숫자 x개 생성(x=행운숫자)
-    numbers = [random.randint(1, 45) for _ in range(19850831)]
+    numbers = [random.randint(1, 45) for _ in range(1985)]
 
     # 가장 많이 생성된 숫자를 찾아서 리스트로 만들기
     number_counts = Counter(numbers)
