@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lucky Numbers Result</title>
+</head>
+<body>
+    <h1>Lucky Numbers Result</h1>
+    <p>생성된 행운숫자:</p>
+    <ul>
+        {% for number_set in number_sets %}
+            <li>{{ number_set }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/">홈으로 돌아가기</a>
+</body>
+</html>
